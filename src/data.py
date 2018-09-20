@@ -11,7 +11,7 @@ def read(data_file):
 
     for i in data_lists:
         line = i.split('\t')
-        line0 = 'S_ '+line[0]+ ' E_'
+        line0 = 'S_ '+line[0]+ ' _E'
         line1 = 'S_ '+line[1]+' _E'
         english_l.append(line0)
         hindi_l.append(line1)
