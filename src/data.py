@@ -68,7 +68,6 @@ class Dataset:
 
         self.dataset = tf.data.Dataset.from_tensor_slices((self.x,self.y))
         self.dataset = self.dataset.batch(self.batch_size)
-<<<<<<< HEAD
+
         return self.dataset
-=======
->>>>>>> 1106c1c9693adb4fd8c29c3e05a2b3be60a38a1a
+
